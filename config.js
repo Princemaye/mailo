@@ -25,8 +25,8 @@ global.caption = process.env.CAPTION || global.caption || "ɢɛռɛʀǟȶɛɖ �
 
 
 global.devs = "254786273945" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254786273945,254702365210,254708336448,254762508828";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254786273945,254702365210,254708336448,254762508828,254101827915";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "237682698517";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "237682698517";
 
 
 
@@ -59,15 +59,15 @@ module.exports = {
   style : process.env.STYLE || "3",  // put '1' & "2" here to check bot styles
   thumbimage: process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "*",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.7",
-  caption : global.caption || "ɢɛռɛʀǟȶɛɖ ᏰᎩ ᏇᎥᏝᏝᎥᏕ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "POWERED BY PRINCE" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "〃Willis",
+  author : process.env.PACK_AUTHER|| "〃PRINCE",
   packname: process.env.PACK_NAME || "〃",
-  botname : process.env.BOT_NAME  || "ᴡɪʟʟɪꜱ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "≛ Willis",
+  botname : process.env.BOT_NAME  || "FARADAY",
+  ownername:process.env.OWNER_NAME|| "PRINCE",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -82,7 +82,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "ADAM"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "MAYEL"  ).toUpperCase(),
 
 
 
